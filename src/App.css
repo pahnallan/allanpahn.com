@@ -39,15 +39,15 @@
 
 .App-header-container a {
   color: white;
-        text-decoration: none;
-        padding: 0 20px;
-        font-size: 22px;
-        transition: color 0.5s;
-        height: 100%;
-        border-bottom: 3px solid rgba(0,0,0,0);
-        display: flex;
-        align-items: center;
-        transition: 0.3s;
+  text-decoration: none;
+  padding: 0 50px;
+  font-size: 22px;
+  transition: color 0.5s;
+  height: 100%;
+  border-bottom: 3px solid rgba(0,0,0,0);
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
 }
 
 .App-contact-container ul {
@@ -78,4 +78,14 @@
   border-radius: 50%;
   text-align: center;
   border: 1px solid var(--color-gray-border)
+}
+
+.App-name {
+  margin: 0;
+}
+
+.App-icon-link {
+  display: flex;
+  width: 30px;
+  height: 30px;
 }
