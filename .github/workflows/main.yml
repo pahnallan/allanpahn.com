@@ -23,4 +23,4 @@ jobs:
       run: aws s3 sync ./public/ s3://allanpahn.com --delete
 
     - name: Invalidate CloudFront Edge caches
-      run: aws cloudfront create-invalidation --disctribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --path "/*"
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --path "/*"
