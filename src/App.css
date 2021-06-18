@@ -2,9 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
+.App-display-pic {
   height: 20vmin;
   pointer-events: none;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -40,7 +41,7 @@
 .App-header-container a {
   color: white;
   text-decoration: none;
-  padding: 0 50px;
+  padding: 0 30px;
   font-size: 22px;
   transition: color 0.5s;
   height: 100%;
@@ -88,4 +89,13 @@
   display: flex;
   width: 30px;
   height: 30px;
+}
+
+.App-title-description {
+  display: flex;
+  font-size: 0.8em;
+}
+
+.App-title-description p{
+  margin: 1rem;
 }
