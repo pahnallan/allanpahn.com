@@ -1,6 +1,6 @@
-import logo from './img/logo.svg';
 import displayPicture from './img/allan_dp.jpg';
 import './App.css';
+import DarkModeToggle from './components/DarkModeToggle'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <a>Projects</a>
           <a>Blogs</a>
         </nav>
+        <DarkModeToggle />
         <img src={displayPicture} className="App-display-pic" alt="logo" />
         <h1 className="App-name">Allan Pahn</h1>
         <div className="App-title-description">
