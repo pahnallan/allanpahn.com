@@ -64,6 +64,12 @@
   display: flex;
   align-items: center;
   transition: 0.3s;
+
+  font-family: Arial;
+  font-stretch: 100%;
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .App-toggle-container {
