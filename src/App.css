@@ -4,7 +4,10 @@
 }
 
 .App {
+  background-color: var(--main-bg-color);
+  color: var(--secondary-color);
   text-align: center;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-display-pic {
@@ -13,6 +16,8 @@
   border-radius: 50%;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -20,14 +25,19 @@
 }
 
 .App-header {
-  background-color: var(--main-bg-color);
-  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.App-body {
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--secondary-color);
 }
 
 .App-link {
@@ -54,6 +64,12 @@
   display: flex;
   align-items: center;
   transition: 0.3s;
+}
+
+.App-toggle-container {
+  margin-left: auto;
+  padding-right: 15px;
+  padding-top: 10px;
 }
 
 .App-contact-container ul {

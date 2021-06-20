@@ -13,7 +13,11 @@ function App() {
           <a>Projects</a>
           <a>Blogs</a>
         </nav>
-        <DarkModeToggle />
+        <div className="App-toggle-container">
+          <DarkModeToggle />
+        </div>
+      </header>
+      <div className="App-body">
         <img src={displayPicture} className="App-display-pic" alt="logo" />
         <h1 className="App-name">Allan Pahn</h1>
         <div className="App-title-description">
@@ -58,7 +62,7 @@ function App() {
         <p>
           A little note about myself.
         </p>
-      </header>
+      </div>
     </div>
   );
 }
