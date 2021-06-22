@@ -10,38 +10,13 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-display-pic {
-  height: 20vmin;
-  pointer-events: none;
-  border-radius: 50%;
-}
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/*************Header CSS **************/
 .App-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 70px;
-}
-
-.App-body {
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .App-header-container {
@@ -72,11 +47,42 @@
   font-weight: 600;
 }
 
+
 .App-toggle-container {
   margin-left: auto;
   padding-right: 15px;
   padding-top: 10px;
 }
+
+/*************Body CSS **************/
+.App-body {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.App-display-pic {
+  height: 20vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.App-name {
+  margin: 0;
+}
+
+.App-title-description {
+  display: flex;
+  font-size: 0.8em;
+}
+
+.App-title-description p{
+  margin: 1rem;
+}
+
 
 .App-contact-container ul {
   display: flex;
@@ -88,8 +94,6 @@
   padding: 0;
   margin: .625rem 0
 }
-
-
 
 .App-contact-container li {
   color: black;
@@ -108,22 +112,8 @@
   border: 1px solid var(--color-gray-border)
 }
 
-.App-name {
-  margin: 0;
-}
-
 .App-icon-link {
   display: flex;
   width: 30px;
   height: 30px;
 }
-
-.App-title-description {
-  display: flex;
-  font-size: 0.8em;
-}
-
-.App-title-description p{
-  margin: 1rem;
-}
-
